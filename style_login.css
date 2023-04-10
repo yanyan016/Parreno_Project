@@ -1,0 +1,107 @@
+body {
+    background-color: #191970;
+}
+
+header {
+    text-align: center;
+    background-color: #191970;
+    color: #FBFEF9;
+    font-size: 25px;
+    padding: 25px;
+}
+
+section {
+    background-color: white;
+    color: #191970;
+    text-align: center;
+    font-size: 20px;
+    padding: 30px;
+    margin: 20px;
+}
+
+.line{
+    width: 50%;
+}
+
+/*Styles everything in the login-info class*/
+.login-info {
+    width: 46%;
+    float: right;
+    border: 2px solid #556b2f;
+    border-radius: 25px;
+    margin-top: 60px;
+    text-align: center;
+}
+
+/*Sets the padding of the info-p class*/
+.info-p {
+    padding: 30px;
+}
+  
+/*Sets the margin of the u-p class*/
+.u-p {
+    margin-bottom: 0px;
+}
+  
+/*Sets the background color of the text-input class when in focus*/
+.text-input:focus {
+    background-color: #b1e2c6a1;
+}
+  
+/*Styles everything in the info-button class*/
+.info-button {
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #0E79B2;
+    color: #fdf9f6;
+    border-color: #0E79B2;
+    margin-top: 20px;
+}
+
+.error {
+    font-size: 15px;
+    color: rgb(243, 11, 11);
+}
+  
+.oops {
+    text-decoration: none;
+    padding: 10px;
+    font-size: 12px;
+    color:#4fb286;
+}
+  
+footer {
+    background-color: #57b8c5;
+    color: #fdf9f6;
+    text-align: center;
+    padding: 10px;
+    padding-bottom: 150px;
+    margin: 20px;
+}  
+
+#Socmed-list{
+    position: relative;
+}
+
+#Socmed-list li{
+    padding: 0px;
+    list-style: none;
+    position: absolute;
+    margin-top: -100px;
+}
+
+#Socmed-list li, #Socmed-list a{
+    height: 100px;
+    display: block;
+    margin-left: 43%;
+    margin-top: 0.3px;
+}
+
+#fb {
+	background: url('Images/sprites.png') no-repeat 0 -110px;
+	width: 100px;
+	height: 100px;
+}
+
+
